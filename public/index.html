@@ -1,52 +1,55 @@
 <!DOCTYPE HTML>
 
 <html lang="en">
-<head>
+  <head>
+  <link rel="stylesheet" type="text/css" href="style.css">
   <title>BurgerHeaven Online</title>
   <meta charset="utf-8">
 </head>
 <body>
   <header>
-    <h1>Welcome to BurgerHeaven Online</h1>
+    <center>
+      <h1>Welcome to BurgerHeaven Online!</h1>
+    </center>
   </header>
-  <main>
-    <section>
+  <main class="document">
+    <section class="burgers">
       <h2>Select Burger</h2>
       <p>This is where you execute burger selection</p>
-    </section>
-    <section>
-      <div style="display: inline-block; ">
+      <center>
+      <div id="burger1" style="display: inline-block; ">
       <h2>BBQ Burger</h2>
       <br>
       <img src="https://cdn.pixabay.com/photo/2020/10/05/19/55/hamburger-5630646_1280.jpg" alt="Span" title="Another in-line element" style="width: 200px";>
       <ul>
         <li>900 kCal</li>
-        <li>Contains lactose</li>
-        <li>Contains gluten</li>
+        <li>Contains <span id="ingredient">lactose</span></li>
+        <li>Contains <span id="ingredient">gluten</span></li>
       </ul>
       </div>
-      <div style="display: inline-block; ">
+      <div id="burger2" style="display: inline-block; ">
       <h2>Cheeseburger</h2>
       <br>
       <img src="https://cdn.pixabay.com/photo/2019/01/29/18/05/burger-3962996_1280.jpg" alt="Span" title="Another in-line element" style="width: 200px";>
       <ul>
         <li>850 kCal</li>
-        <li>Contains lactose</li>
-        <li>Contains gluten</li>
+        <li>Contains <span id="ingredient">lactose</span></li>
+        <li>Contains <span id="ingredient">gluten</span></li>
       </ul>
       </div>
-      <dic style="display: inline-block; ">
+      <div id="burger3" style="display: inline-block; ">
       <h2>Fake Chickenburger</h2>
       <br>
       <img src="https://cdn.pixabay.com/photo/2021/01/22/04/24/sandwich-5939093_1280.jpg" alt="Span" title="Another in-line element" style="width: 200px";>
       <ul>
         <li>650 kCal</li>
-        <li>Vegetarian</li>
-        <li>Can be made vegan</li>
+        <li><span id="ingredient">Vegetarian</span></li>
+        <li>Can be made <span id="ingredient">vegan</span></li>
       </ul>
       </div>
+      </center>
     </section>
-    <section>
+    <section class="delivery">
       <h2>Customer Information</h2>
       <p>This is where you provide necessary information</p>
       <p>
@@ -81,10 +84,12 @@
  <input type="radio" id="gender" name="ge" required="required" placeholder="gender">Other
         </p>
     </section>
+    <section>
     <button type="submit">
     <img src="https://www.seekpng.com/png/full/382-3823176_check-box-outline-tick-box-icon.png" alt="Span" title="Another in-line element" style="width: 10px";>
     Place my order!
     </button>
+    </section>
   </main>
   <footer>
     <br>
