@@ -1,0 +1,23 @@
+[
+  {
+    "name": "BBQ Burger",
+    "url": "https://cdn.pixabay.com/photo/2020/10/05/19/55/hamburger-5630646_1280.jpg",
+    "kCal": "900",
+    "gluten": true,
+    "lactose": true
+  },
+  {
+    "name": "Cheeseburger",
+    "url": "https://cdn.pixabay.com/photo/2019/01/29/18/05/burger-3962996_1280.jpg",
+    "kCal": "850",
+    "gluten": true,
+    "lactose": true
+  },
+  {
+    "name": "Fake Chickenburger",
+    "url": "https://cdn.pixabay.com/photo/2021/01/22/04/24/sandwich-5939093_1280.jpg",
+    "kCal": "650",
+    "gluten": false,
+    "lactose": false
+  }
+]
